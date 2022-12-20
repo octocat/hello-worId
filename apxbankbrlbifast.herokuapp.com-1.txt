@@ -1,0 +1,38 @@
+;;
+;; Domain:     apxbankbrlbifast.herokuapp.com.
+;; Exported:   2022-11-05 12:22:17
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+apxbankbrlbifast.herokuapp.com	3600	IN	SOA	apxbankbrlbifast.herokuapp.com root.apxbankbrlbifast.herokuapp.com 2041931753 7200 3600 86400 3600
+
+;; A Records
+apxbankbrlbifast.herokuapp.com.	1	IN	A	54.165.58.209
+apxbankbrlbifast.herokuapp.com.	1	IN	A	54.159.116.102
+apxbankbrlbifast.herokuapp.com.	1	IN	A	52.5.82.174
+apxbankbrlbifast.herokuapp.com.	1	IN	A	18.208.60.216
+
+;; TXT Records
+apxbankbrlbifast.herokuapp.com.	1	IN	TXT	"v=spf1 -all"
+_dmarc.apxbankbrlbifast.herokuapp.com.	1	IN	TXT	"v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"
+*._domainkey.apxbankbrlbifast.herokuapp.com.	1	IN	TXT	"v=DKIM1; p="

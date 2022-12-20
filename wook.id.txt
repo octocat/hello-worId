@@ -1,0 +1,70 @@
+;;
+;; Domain:     wook.id.
+;; Exported:   2022-12-15 04:59:17
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+wook.id	3600	IN	SOA	wook.id root.wook.id 2042274695 7200 3600 86400 3600
+
+;; A Records
+api2.wook.id.	1	IN	A	54.169.170.158
+explorer.wook.id.	1	IN	A	18.139.241.151
+gitlab.wook.id.	1	IN	A	47.90.80.74
+gitlab.wook.id.	1	IN	A	8.210.129.233
+kibana.wook.id.	1	IN	A	47.244.187.153
+log.wook.id.	1	IN	A	202.158.39.204
+remote.wook.id.	1	IN	A	18.139.224.144
+se.wook.id.	1	IN	A	149.129.146.63
+zabbix.wook.id.	1	IN	A	47.244.187.153
+
+;; CNAME Records
+admin.wook.id.	1	IN	CNAME	d1lh9l0okfyerx.cloudfront.net.
+api.wook.id.	1	IN	CNAME	d1yxade41qkhwk.cloudfront.net.
+app.wook.id.	1	IN	CNAME	dujrwjgwnyfbm.cloudfront.net.
+bi.wook.id.	1	IN	CNAME	ab-big-matom-1348099028.ap-southeast-1.elb.amazonaws.com.
+cdn.wook.id.	1	IN	CNAME	cdn.wook.id.w.kunlunsl.com.
+cms.wook.id.	1	IN	CNAME	alb-mx8pd4eam5adcj93bi.cn-shenzhen.alb.aliyuncs.com.
+mail.wook.id.	1	IN	CNAME	mail.hichina.com.
+m.wook.id.	1	IN	CNAME	d1c2uexrf7yftw.cloudfront.net.
+s1.wook.id.	1	IN	CNAME	sg-aurora-fastddy-cluster.cluster-ro-c7qtfjkq8lgd.ap-southeast-1.rds.amazonaws.com.
+s2.wook.id.	1	IN	CNAME	th-aurora-hrnisnzbsipor-cluster.cluster-ro-c7qtfjkq8lgd.ap-southeast-1.rds.amazonaws.com.
+s3.wook.id.	1	IN	CNAME	vn-aurora-ceupocca-cluster.cluster-ro-cezy7sppyzsq.ap-east-1.rds.amazonaws.com.
+shop.wook.id.	1	IN	CNAME	d374t093q5ohj8.cloudfront.net.
+smtp.wook.id.	1	IN	CNAME	smtp.mxhichina.com.
+s.wook.id.	1	IN	CNAME	s.wook.id.w.kunlunsl.com.
+
+;; MX Records
+wook.id.	1	IN	MX	1 route3.mx.cloudflare.net.
+wook.id.	1	IN	MX	4 route2.mx.cloudflare.net.
+wook.id.	1	IN	MX	25 route1.mx.cloudflare.net.
+wook.id.	1	IN	MX	5 mxn.mxhichina.com.
+wook.id.	1	IN	MX	10 mxw.mxhichina.com.
+
+;; TXT Records
+_dnsauth.wook.id.	1	IN	TXT	"202004060000005l4iuew7vo9wjr8tpfvhji64a2w0j3y91gfc7bwd49m7784tmq"
+_dnsauth.wook.id.	1	IN	TXT	"202003180000005rvt579peh3zw8ax5e98d3cbijvdb4qzfeco12lesrsi9qea61"
+_dnsauth.wook.id.	1	IN	TXT	"202101200000000h15sbteg70dz9abk88j4ggsuy71ib6i2l6pnvj0ava6kt5aky"
+_dnsauth.wook.id.	1	IN	TXT	"2021122200000039ysrlfry09g6hkqg9tn8gt7a8yv9ph1hxc9cicc338462uncd"
+wook.id.	1	IN	TXT	"v=spf1 termasuk:_spf.mx.cloudflare.net ~semua"
+wook.id.	1	IN	TXT	"termasuk:_spf.mx.cloudflare.net"
+wook.id.	1	IN	TXT	"google-site-verification=_gm1f9bB0XUUBbgIyP4HGK9GMuImXkrr3MXk-dDVqm4"
