@@ -1,0 +1,1 @@
+impot numpy as np
