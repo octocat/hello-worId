@@ -1,4 +1,17 @@
-hello-worId
-===========
+ G
+ O
+ T
+ H
+ A
+ MkG
 
-My first repository on GitHub.
+
+
+?
+e_g_o last repo on GitHub
+Other
+i.am
+AI.
+
+
+

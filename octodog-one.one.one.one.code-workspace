@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "octodog-one.one.one.one: system",
+			"path": "../octodog-one.one.one.one.worktrees/system"
+		}
+	],
+	"settings": {}
+}
