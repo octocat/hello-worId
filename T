@@ -1,0 +1,4 @@
+{
+  "image": "codingtemple/devcontainers/universal:2",
+  "features": {}
+}
