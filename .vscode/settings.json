@@ -1,0 +1,8 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "hi"
+    ]
+    {
+        "image": "codingtemple/devcontainers/universal:2",
+        "features": {}
+      }
